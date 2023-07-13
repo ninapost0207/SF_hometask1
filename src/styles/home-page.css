@@ -1,0 +1,36 @@
+.home-page {
+    background-image: linear-gradient(to top, rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url('../../images/image-4.3.png');
+    background-size: cover;
+    height: 707px;
+}
+.home-page__title {
+    width: 676.11px;
+    height: 105px;
+    padding-top: 194px;
+    font-family: Yeseva One;
+    font-size: 40px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+.home-page__description {
+    margin-top: 19px;
+    width: 504px;
+    height: 105px;
+    color: white;
+    font-size: 22px;
+}
+.button-block {
+    margin-top: 41px;
+}
+
+.button-calculate {
+    background: #E3B873;  
+    border: 1px solid #E3B873;    
+    
+}
+.button-submit {
+    background: rgba(0, 0, 0, 0);
+    border: 1px solid #FFFFFF;    
+    margin-left: 20px;
+    padding: 13px;
+}

@@ -1,0 +1,72 @@
+.client-person-block {
+    width: 376px;
+    height: 428px;
+    background: #FFFFFF;
+    box-shadow: 0px 10px 50px rgba(0, 0, 0, 0.04);
+    margin-top: 39px;
+}
+.client-photo {
+    border-radius: 38px;
+    width: 76px;
+    height: 76px;
+    margin-top: 24px;
+    margin-left: 20px;
+}
+.client-first {
+    background: url('../../images/client1.jpg');
+}
+.client-second {
+    background: url('../../images/client2.jpg');
+}
+.client-third {
+    background: url('../../images/client3.jpg');
+}
+.client-name {
+    font-family: Yeseva One;
+    font-size: 18px;
+    line-height: 23px;
+    color: #181818;
+    margin-left: 22px;
+    margin-top: 41px;
+}
+.review {
+    text-transform: lowercase;
+    font-size: 13px;
+    line-height: 180%;
+    color: #959595;
+    margin-top: 39px;
+    margin-left: 20px;
+}
+.client-area-time {
+    width: 293.8px;
+    height: 54px;
+    margin-top: 55px;
+    background: #E3B873;
+    box-shadow: 5px 5px 20px rgba(227, 184, 115, 0.5);
+    color: white;
+    font-family: Yeseva One;
+    font-size: 17px;
+    align-items: center;
+    justify-content: space-around;
+    padding-right: 17.3px;
+}
+.vertical-string {
+    background: white;
+    width: 0.8px;
+    height: 54px;
+    margin-left: 14px;
+}
+.icon {
+    width: 32.3px;
+    height: 31.3px;
+}
+.buildings-background {
+    height: 505px;
+    background: url('../../images/Group.jpg');
+    transform: matrix(-1, 0, 0, 1, 0, 0);
+    background-repeat: repeat-x;
+    overflow: hidden;
+    margin-top: -50px;
+    padding-bottom: -50px;
+    filter: grayscale(100%) opacity(5%);
+}

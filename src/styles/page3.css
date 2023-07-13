@@ -1,0 +1,49 @@
+.page3 {
+    margin-top: 100px;
+}
+.photo-item {
+    width: 392px;
+    height: 421px;
+    margin-top: 30px;
+    position: relative;
+    z-index: 1;
+}
+
+.item-decription {
+    background-color: #FFFFFF;
+    box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.03);
+    max-width: 330px;
+    max-height: 286px;
+    margin-top: -150px;
+    margin-left: 45px;
+    position: relative;
+    z-index: 2;
+}
+.item-decription__title {
+    font-family: 'Yeseva One';
+    font-size: 18px;
+    color: #363636;
+    padding: 25px 34px 13px 34px;
+}
+.item-decription__works {
+    font-size: 13px;
+    line-height: 2em;
+    color: #959595;
+    margin-left: 12px;
+}
+.price {
+    width: 228px;
+    height: 54px;
+    background: #E3B873;
+    box-shadow: 5px 5px 10px rgba(227, 184, 115, 0.3);
+    font-family: 'Yeseva One';
+    font-size: 18px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    margin-top: -10px;
+    text-align: center;
+    padding-top: 17px;
+    padding-left: 17px;
+    padding-right: 17px;
+    margin-bottom: 53px;
+}

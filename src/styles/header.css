@@ -1,0 +1,49 @@
+.header {
+    background: black;
+}
+.navbar {
+    height: 83px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.navbar-navigation {
+    display: flex;
+    list-style: none;
+}
+.nav, .phone {
+    color: white;
+    font-size: 11px;
+    margin-right: 47.09px;
+    text-decoration: none;
+}
+.nav:hover, .phone:hover{
+    color: #E3B873;
+}
+.baige {
+    color: #E3B873;
+}
+.navbar-logo {
+    text-transform: uppercase;
+    font-size: 11px;
+    color: #E3B873;
+}
+.phone {
+    margin-top: 37px;
+    margin-right: 45px;
+    margin-left: 67.36px;
+}
+.button {
+    color: white;
+    background: #E3B873;
+    box-shadow: 0px 5px 15px rgba(227, 184, 115, 0.2);
+    border-radius: 2px;
+    border: 0;
+    padding: 13px 40px;
+    cursor: pointer;
+    font-size: 11px;
+    line-height: 15px;
+    text-transform: uppercase;
+    text-align: center;
+}

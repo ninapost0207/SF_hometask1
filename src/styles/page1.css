@@ -1,0 +1,186 @@
+.page1 {
+    margin: 0 auto;
+    height: 1074px;
+    
+    padding: 107px 134px 0 134px;
+    box-sizing: border-box;
+    background-color: black;
+} 
+.page1-top-menu {
+    width: 679px;
+    height: 24px;
+    margin-left: 492px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+
+.page1-menu-item-div {
+    cursor: pointer;
+    margin: 0;
+    padding: 0;
+    margin-right: 60px;
+    padding-bottom: 6px;
+    border-bottom: 1px solid black;
+    transition: var(--time-animation);
+}
+
+
+.page1-item-last{
+    margin-right: 0;
+}
+
+
+.page1-menu-item {
+    font-family: 'Yeseva One';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 19px;
+    text-transform: uppercase;
+    color: rgba(255, 255, 255, 0.3);
+    transition: var(--time-animation);
+}
+
+
+.page1-content {
+    max-width: 1440px;
+    margin-top: 45px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+
+.page1-left {
+    width: 442px;
+    height: 417px;
+}
+
+
+.page1-header-h1 {
+    color: var(--text-emphasis-color);
+    width: 253px;
+    margin-bottom: 34px;
+}
+
+
+.page1-legend {
+    font-family: 'Nunito Sans';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 27px;
+    color: #FFFFFF;
+}
+
+
+.page1-object-info {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    margin-top: 42px;
+}
+
+
+.page1-info-block {
+    width: 190px;
+    min-height: 107px;
+}
+
+
+.page1-header-h2 {
+    color: var(--text-emphasis-color);
+    margin-bottom: 5px;
+}
+
+
+.page1-info-text {
+    font-family: 'Nunito Sans';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 13px;
+    line-height: 21px;
+    color: #FFFFFF;
+}
+
+
+.page1-right {
+    margin-left:auto;
+}
+
+
+.page1-image {
+    height: 482px;
+    width: 679px;
+    background-size: cover;
+    transition: var(--time-animation-half);
+}
+
+
+/*Arrows and circles*/
+
+.page1-control-block {
+    width: 210px;
+    height: 15px;
+    margin: 0;
+    margin-top: 17px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+  
+
+.page1-arrow {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+
+
+.page1-arrow-tip {
+    height: 10px;
+    width: 10px;
+    border-top: 2px solid white;
+    border-left: 2px solid white;
+}
+
+
+.page1-arrow-tip-left {
+    transform: rotate(-45deg);
+}
+
+
+.page1-arrow-tip-right {
+    transform: rotate(135deg);
+}
+
+
+.page1-arrow-line {
+    position: relative;
+    width: 40px;
+    height: 2px;
+    background-color: white;
+}
+
+
+.page1-arrow-line-left {
+    right: 12px;
+}
+
+
+.page1-arrow-line-right {
+    left: 12px;
+}
+
+
+.page1-circle {
+    cursor: pointer;
+    height: 10px;
+    width: 10px;
+    border-radius: 50%;
+    background-color: rgba(255, 255, 255, 0.3);
+    transition: var(--time-animation);
+}

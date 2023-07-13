@@ -1,0 +1,106 @@
+.page4 {
+    background: white;
+    margin-top: 150px;
+    background: url('../../images/4.jpg') no-repeat;
+    height: 645px;
+    padding-top: 24px;
+}
+.main-block-list {
+    margin-top: 10px;
+}
+.action-list-item {
+    margin-bottom: 54px;
+    margin-left: 155px;
+    margin-top: 54px;
+    align-items: center;
+}
+.circle-number {
+    width: 41.8px;
+    height: 41.8px;
+    background: #E3B873;
+    border: 8px solid #FFFFFF;
+    box-shadow: 0px 5px 15px rgba(227, 184, 115, 0.15);
+    border-radius: 30px;
+    top: 24px;
+}
+.number-in-circle {
+    font-family: 'Yeseva One';
+    font-size: 18px;
+    line-height: 25px;
+    text-align: center;
+    color: #FFFFFF;
+    padding-top: 8px;
+}
+.black-block {
+    background: #131313;
+    box-shadow: 0px 30px 30px rgba(0, 0, 0, 0.05);
+    width: 506px;
+    height: 509px;
+    margin-top: 54px;
+    margin-left: 134px;
+}
+.black-block__title {
+    font-size: 18px;
+    line-height: 26px;
+    text-align: center;
+    color: #FFFFFF;
+    padding-top: 28px;
+}
+.black-block__input_block {
+    margin-top: 40px;
+    margin-left: 49px;
+}
+.black-block__input {
+    width: 408px;
+    border: none;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.15);
+    padding: 5px;
+    background: #131313;
+    font-size: 18px;
+}
+.black-block__input::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+    color: white;
+    opacity: 1; /* Firefox */
+  }
+.black-block__label {
+    margin-left: 5px;
+}
+.black-block__checkbox {
+    margin-top: 18px;
+    margin-left: 48px;
+}
+.black-block__button {
+    margin-left: 255px;
+    margin-top: 35px;    
+    font-size: 13px;
+    line-height: 21px;    
+    color: #FFFFFF;
+    padding: 0;
+}
+
+.page4__icon-block {
+    justify-content: flex-end;
+    align-items: center;
+    margin-top: 30px;
+    margin-right: 300px;
+}
+.baige-circle {
+    width: 72px;
+    height: 72px;
+    background: #E3B873;
+    box-shadow: 0px 10px 20px rgba(237, 192, 120, 0.2);
+    border-radius: 35px;
+}
+.pig {
+    margin-top: 20px;
+    margin-left: 20px;
+}
+.pig-icon-title {
+    font-size: 18px;
+    line-height: 26px;
+    color: #E3B873;
+    text-shadow: 0px 3px 10px rgba(227, 184, 115, 0.15);
+    width: 344px;
+    height: 47px;
+    margin-left: 25px;
+}

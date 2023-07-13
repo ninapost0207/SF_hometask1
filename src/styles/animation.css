@@ -1,0 +1,16 @@
+.page1-menu-item-div-selected {
+    transition: var(--time-animation);
+    border-color: var(--text-emphasis-color);
+}
+
+
+.page1-menu-item-selected {
+    transition: var(--time-animation);
+    color: var(--text-emphasis-color);
+}
+
+
+.page1-circle-selected {
+    transition: var(--time-animation);
+    background-color:var(--circle-emphasis-color);
+}
