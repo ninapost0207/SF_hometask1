@@ -1,0 +1,242 @@
+@media only screen and (max-width: 1300px) {
+    .nav, .button-header, .cities, .cities-item, .coffee-table, .strings, .forth-page, .interior-styles {
+      display: none;
+}
+  .content, .container, .projects-first {
+    max-width: 340px;
+  }
+  .navbar-navigation {
+    padding: 0px;
+  }
+  .phone {
+    margin-right: 0px;
+  }
+  .main-page {
+    width: 100%;
+    height: 375px;
+  }
+  .main-page-title {
+    font-size: 23px;
+    width: 339px;
+    height: 60px;
+    padding-top: 70px;
+  }
+  .main-page-description {
+    font-size: 14px;
+    margin-top: 16px;
+    width: 339px;
+    height: 94px;
+  }
+  .button-block, .row-column {
+    margin-top: 0px;
+    display: flex;
+    flex-direction: column;
+}
+  .button-calculate, .button-submit, .button {
+    width: 338px;
+    margin-left: 0px;
+  }
+  .big-title {
+    font-size: 22px;
+    margin-top: 36px;
+    text-align: center;
+  }
+  .projects-description {
+    width: 311px;
+    height: 86px;
+    margin-top: 22px;
+    color: white;
+    text-align: center;
+  }
+  .second-page-image {
+    width: 340px;
+    height: 241px;
+    margin-top: 0 auto;
+    background: url('photos/12.jpg');
+    margin-left: 0px;
+    object-fit: cover;
+  }
+  .second-page {
+    padding-bottom: 40px;
+    background: black;
+  }
+  .city-header {
+    font-size: 14px;
+  }
+  .answer {
+    font-size: 11px;
+  }
+  .blocks {
+    height: 145px;
+    width: 338px;
+    padding-top: 36px;
+    margin-bottom: 0px;
+  }
+  .block {
+    margin-right: 0px;
+  }
+  .title {
+    font-size: 22px;
+    padding-top: 50px;
+  }
+  .video-block {
+    margin: 0 auto;
+  }
+  .video-darkened {
+    width: 340px;
+    height: 207px;
+    margin: 0 auto;
+    padding: 0 auto;
+  }
+  .circle {
+    width: 37px;
+    height: 37px;
+    border-radius: 18px;
+  }
+  .triangle {
+    border-top: 8px solid transparent;
+    border-bottom: 8px solid transparent;
+    border-left: 11px solid white;
+    left: 40%;
+    top: 32%;
+  }
+  .string-center {
+    margin-top: 28px;
+    margin-left: 45%;
+  } 
+  .text {
+    font-size: 11px;
+    color: #FFFFFF;
+  }
+  .third-page {
+    background-color: black;
+  }
+  .div-button {
+    padding: 0px;
+    margin-bottom: -20px;
+  }
+  .input-group {
+    display: flex;
+    flex-direction: column;
+    margin-top: 61px;
+    align-items: center;
+  }
+  .name-input {
+    margin-top: 0px;
+    margin-left: 0px;
+  }
+  .question-input, .checkbox {
+    color: white;
+  }
+  .title-input {
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 13px;
+  }
+  .title-input {
+    margin-top: 30px;
+  }
+  .input {
+    border-bottom: 1px solid white;
+    background-color: transparent;
+    width: 339px;
+    margin-left: 0px;
+    color: white;
+  }
+  .button {
+    margin-top: 40px;
+    margin-bottom: 20px;
+  }
+  .checkbox {
+    padding-bottom: 50px;
+  }
+  .third-add-page {
+    margin-top: -25px;
+    background: white;
+  }
+  .photo-block, .input-row {
+    display: flex;
+    flex-direction: column;
+  }
+  .photo-item {
+    width: 340px;
+    height: 365px;
+    margin-left: 0px;
+    margin-top: 50px;
+  }
+  .item-decription {
+    width: 270px;
+    height: 241px;
+    margin-left: 0px;
+  }
+  .item-decription-works {
+    font-size: 13px;
+    line-height: 1.6em;
+  }
+  .price {
+    width: 190px;
+    height: 40px;
+    font-size: 15px;
+    margin-bottom: 30px;
+  }
+  .fifth-page {
+    background: white;
+    margin-top: 50px;
+    height: max-content;
+  }
+  .title-border {
+    margin-right: 0px;
+  }
+  .flex-column {
+    align-items: flex-start;
+    width: 340px;
+  }
+  .flex-column-center {
+    align-items: center;
+  }
+  .left-block, .photo-style-second, .photo-style-third, .photo-style-forth, .photo-style-2, .sixth-page, .footer {
+    display: none;
+  }
+  .photo-style-1 {
+    margin-left: 0px;
+  }
+  .photo-style-first {
+    width: 340px;
+    height: 242px;
+    margin-top: 24px;
+    margin-bottom: -165px;
+  }
+  .question-block {
+    padding-top: 120px;
+  }
+  .input-center {
+    margin: 0 auto;
+  }
+  .string-under-input-small, .string-under-input-big {
+    width: 340px;
+  }
+  .checkbox-center {
+    margin-left: 0px;
+  }
+  .map-image {
+    width: 340px;
+    height: 255px;
+    margin-bottom: 0px;
+    margin-top: 70px;
+  }
+  .seventh-page {
+    background: black;
+    padding-bottom: 40px;
+  }
+  .icon-row {
+    display: flex;
+    flex-direction: row;
+  }
+  .map-column div:nth-child(3) {
+    order: -1;
+  }
+  .map-column {
+    display: flex;
+    flex-direction: column;
+    margin-top: 45px;
+  }
+}
